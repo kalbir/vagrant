@@ -3,5 +3,6 @@
 
 apt-get update
 apt-get install -y nginx
-rm -rf /var/www
-ln -fs /vagrant /var/www
+rm -rf /usr/share/nginx/www
+ln -fs /vagrant /usr/share/nginx/www
+nginx
